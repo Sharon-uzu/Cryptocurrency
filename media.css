@@ -1,0 +1,318 @@
+@media screen and (max-width:1000px) {
+    body{
+        overflow-x: hidden;
+    }.one{
+        width: 100%;
+        flex-direction: column;
+        justify-content: start;
+        justify-items: start;
+
+    }
+    nav ul{
+        display: flex;
+         margin-left: 2rem; 
+         position: relative;
+         margin-top: 1rem;
+    }
+    .list{
+        flex-direction: column;
+        margin-left: 8rem;
+        margin-top: 2rem;
+        width: 80%;
+        left: 0%;
+        position: absolute;
+        z-index: 1000;
+        background-color: white ;
+        padding: 2rem 4rem ;
+        display: none;
+    }
+
+    .list li{
+        font-size: 20px;
+        margin-left: 0rem;
+       margin-top: .7rem;
+       font-weight: 600;
+    }
+    nav li{
+       flex-direction: column;
+       margin-left: 0rem;
+    }
+    nav a{
+        text-decoration: none;
+       color: #0D0D2B;
+    }
+    #menu{
+        display: block;
+        position: absolute;
+        width: 3rem;
+        height: 1.5rem;
+        left: 22rem;
+        margin-top: .5rem;
+    }
+    #close{
+        display: block;
+         width: 2rem; 
+         position: absolute;
+         left: 22rem;
+        margin-top: .2rem; 
+        display: none;
+    }
+    .r{
+        display: block;
+    }
+
+    .landing{
+        flex-direction: column;
+        margin-top: 2rem;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        overflow-x: hidden;
+    }
+
+    .landing .txt{
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+    }
+    .landing .first{
+        width: 100%;
+        text-align: center;
+    }
+    .landing .second{
+        font-size: 24px;
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .landing .third{
+        color: #828282;
+        width: 100%;
+        margin-top: 1rem;
+        font-size: 14px;
+    }
+    .fourth{
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .fourth .l{
+        width: 40%;
+        text-align: center;
+    }
+     
+
+    .landing .img{
+        width: 90%;
+        margin-top: 1rem;
+       text-align: center;
+    }
+    .landing .img img{
+        height: 20rem;
+        width: 90%;
+    }
+    .crappo{
+        overflow-x: hidden;
+    }
+    .crappo .first img{
+        width: 100%;
+    }
+    .crappo .second{
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .crappo .img{
+        width: 100%;
+    }
+    .crappo .txt{
+        width: 100%;
+        margin-left: 0rem;
+        margin-top: 1rem;
+       
+    }
+    .crappo .txt h1{
+        font-size: 18px;
+        overflow-x: hidden;
+    }
+    .crappo .txt p{
+        width: 100%;
+    }
+    .two .second{
+        margin-top: 1rem;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+    .two .second .content{
+        width: 90%;
+        height: 18rem;
+        margin-left: 1.3rem;
+        flex-direction: column;
+    }
+    .two .second .content .txt{
+        width: 100%;
+        margin-left: .5rem;
+    }
+    .content form{
+        margin-bottom: 1rem;
+        margin-left: .8rem;
+    }
+    .two input{
+        width: 90%;
+    }
+    label{
+        margin-left: 0rem;
+        width: 100%;
+    }
+    select{
+        width: 50%;
+    }
+    .overlapping{
+        width: 100%;
+        margin-top: -8rem;
+        overflow-x: hidden;
+        margin-left: .5rem;
+    }
+    .overlapping .contxt{
+        width: 100%;
+        text-align: center;
+        /* margin-top: 16rem; */
+    }
+    .overlapping .first h1{
+        width: 100%;
+        font-size: 24px;
+    }
+    .image{
+        flex-direction: column;
+
+    }
+    .image .img{
+        width: 100%;
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+    }
+    .invent{
+        overflow-x: hidden;
+        
+    }
+    .invest .first{
+       flex-direction: column;
+    }
+    .invest h1{
+        width: 100%;
+        font-size: 24px;
+        margin-top: 2rem;
+    }
+    .invest .second {
+       flex-direction: column;
+       margin-top: 0;
+    }
+    .invest .second .left{
+        width: 100%;
+    }
+    .invest  h2{
+        font-size: 26px;
+    }
+    .invest .second .right{
+        width: 90%;
+        margin-top: 2rem;
+    }
+    .invest .second .right img{
+        width: 96%;
+    }
+    .invest .third{
+        flex-direction: column-reverse;
+        
+    }
+    .invest .third .left{
+        width: 100%;
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .invest .third .left img{
+        width: 95%;
+
+    }
+    .invest .third .right{
+        width: 100%;
+        
+    }
+    .invest .four{
+        flex-direction: column;
+        height: auto;
+    }
+    .invest .four .left{
+        width: 100%;
+    }
+    .invest .four .right{
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .invest .fifth{
+        height: 40rem;  
+    }
+    .invest .fifth .contxt{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+    .fifth .one{
+        width: 100%;
+    }
+    .fifth .two{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .fifth input{
+        width: 80%;
+        height: 34px;
+    }
+
+    footer{
+        height: auto;
+        overflow-x: hidden;
+    }
+    footer .contxt{
+        width: 100%;
+       flex-direction: column;
+       text-align: center;
+    }
+    footer .one{
+        width: 100% ;
+        margin-top: 0rem;
+    }
+    footer .two{
+        width: 100%;
+        margin-top: 0;
+    }
+    footer  .three{
+        width: 100%;
+        margin-top: 0rem;
+    }
+    footer .four {
+        width: 100%;
+        margin-top: 0rem;
+    }
+    .main-f{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+       height: 7rem;
+       text-align: center;
+    }
+    .main-f .f-icons{
+        margin-right: 0rem;
+        margin-top: 2rem;
+    }
+    .main-f .f-icons img{
+        margin-left:1.2rem ;
+    }
+    .at{
+        margin-left: 0rem;
+    }
+}
